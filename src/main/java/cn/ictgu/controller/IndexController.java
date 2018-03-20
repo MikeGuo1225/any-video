@@ -19,7 +19,7 @@ import java.util.List;
 @AllArgsConstructor
 public class IndexController {
 
-    private final static String[] TAGS = {"QQ", "PANDA"};
+    private final static String[] TAGS = {"QQ", "PANDA"/*, "YOUKU"*/};
 
     private final RedisSourceManager redisSourceManager;
 

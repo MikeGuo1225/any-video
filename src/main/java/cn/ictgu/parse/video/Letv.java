@@ -133,4 +133,8 @@ public class Letv implements Parser<Video> {
         return "" + result;
     }
 
+    public static void main(String [] args){
+        System.out.println(getTkey());
+    }
+
 }

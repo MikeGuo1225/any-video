@@ -13,14 +13,15 @@ server:
 # 数据库 及 Redis 配置    
 spring:
   redis:
-    host: localhost
+    host: 39.106.127.25
     password:
+    port: 6381
 #  使用 MySQL 不用做任何修改
   datasource:
-    url: jdbc:mysql://localhost:3306/any_db?useUnicode=true&characterEncoding=UTF-8
+    url: jdbc:mysql://39.106.127.25:3306/any_db?useUnicode=true&characterEncoding=UTF-8
     driver-class-name: org.mariadb.jdbc.Driver
-    username:
-    password:
+    username: root
+    password: admin
     sql-script-encoding: utf-8
     hikari:
       max-lifetime: 1765000
